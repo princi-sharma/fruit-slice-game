@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Inclusion-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <!-- Style Inclusion-->
+    <link rel="stylesheet" type="text/CSS" href="/CSS/style.css">
+    <script src="/JS/code.js"></script>
+    <title>Fruit Slice Game</title>
+</head>
+<body>
+    <div id="container">
+        <div id="score">
+            Score:<span id="score-value"></span>
+        </div>
+        <div id="fruitContainer">
+            <img id="fruits" alt="" class="fruits">
+        </div>
+        <div id="instruction">Catch the Fruit With Mouse</div>
+        <div id="start-reset">Start Game</div>
+        <div id="trialLeft"></div>
+        <div id="game-over">
+        <!--
+            <p>Game Over</p>
+            <p>Your Score is 20</p>
+        -->
+        </div>
+        <audio id="sliceSound">
+            <source src="/sound/slice.mp3">
+            <source src="/sound/slice.ogg">
+        </audio>
+    </div>
+</body>
+</html>
